@@ -1,0 +1,14 @@
+---
+# directories
+result_dir:  results/           # should be kept
+working_dir: temp/              # can be removed (temporary files)
+
+# samples to fastq/fasta files
+samples: config/samples.tsv  # columns should be named " "
+
+# Jellyfish parameters
+jellyfish:
+  mer_length: 31             # should be an odd number (2n +1 e.g. 19, 21, 23, etc.) & equal/smaller than 31
+  memory_allocation: 5G      # hash size / memory allocation  
+  min_quality_base: "?"      # ? stands for 
+

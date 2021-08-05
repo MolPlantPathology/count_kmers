@@ -1,0 +1,11 @@
+name: kmers
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas = 0.23
+  - snakemake = 5.20.0
+  - star = 2.7.6a
+  - jellyfish = 2.2.10 
+
